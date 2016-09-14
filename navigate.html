@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html ng-app="BasicHttpAuthExample">
+<head>
+	<title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+<body>
+<P>&nbsp;<P>
+<script language="javascript">
+<!-- hide
+if (self==parent){document.write('<font color=#ffffff><b>GO TO  <a href=cart.html target="main">Home Page</a></b></font><BR>')};
+<!-- end hide -->
+</script>
+
+
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <!--Collapsible Group title -->
+         <button> LOGIN</button>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <!-- contents -->
+
+        <div class="jumbotron">
+      <div class="container">
+        <div class="col-xs-offset-2 col-xs-8">
+          <div ng-view></div>
+        </div>
+      </div>
+    </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Categories
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="mobile.html" target="main"><font color="black"><center>Mobiles</center></a></li>
+    <li><a href="computer.html" target="main"><font color="black"><center>Computer</center></a></li>
+    <li><a href="tv.html" target="main"><font color="black"><center>Television</center></a></li>
+   
+  </ul>
+</div>
+
+
+
+<P>
+ 
+<P>
+
+
+
+
+
+
+
+[ <a href="javascript:parent.updatemain_order()"><font color="red">Review Order</font></a> ]
+<P>
+
+<P>
+<form target="main" name="cse" id="searchbox_demo" action="https://www.google.com/cse">
+  <input type="hidden" name="cref" value="" />
+  <input type="hidden" name="ie" value="utf-8" />
+  <input type="hidden" name="hl" value="" />
+  <input name="q" type="text" size="40" />
+  <input type="submit" name="sa" value="Search" />
+</form>
+<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+
+<p>
+
+
+<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="https://code.angularjs.org/1.2.20/angular.js"></script>
+    <script src="https://code.angularjs.org/1.2.20/angular-route.js"></script>
+    <script src="https://code.angularjs.org/1.2.13/angular-cookies.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="modules/authentication/services.js"></script>
+    <script src="modules/authentication/controllers.js"></script>
+    <script src="modules/home/controllers.js"></script>
+
+
+</body>
+</html>
